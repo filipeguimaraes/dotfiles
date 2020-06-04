@@ -1,0 +1,39 @@
+{
+   "app": {
+      "display_mode": "browser",
+      "launch": {
+         "web_url": "https://www.messenger.com/"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico"
+      }, {
+         "size": 48,
+         "url": "https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico"
+      }, {
+         "size": 64,
+         "url": "https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico"
+      }, {
+         "size": 96,
+         "url": "https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico"
+      }, {
+         "size": 128,
+         "url": "https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico"
+      }, {
+         "size": 256,
+         "url": "https://static.xx.fbcdn.net/rsrc.php/y7/r/O6n_HQxozp9.ico"
+      } ]
+   },
+   "description": "Instantly reach the people in your life—for free. Messenger is just like texting, but you don't have to pay for every message (it works with your data plan).",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "iDCpZjYsF2AFscnH3SDg2l9B+MoJM0D8WXNyybPqVW0=",
+   "name": "Messenger",
+   "version": "2020.6.4.46841"
+}
