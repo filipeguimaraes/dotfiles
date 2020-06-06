@@ -1,0 +1,16 @@
+[2020-06-06 10:11:21.995] [sharedprocess] [info] main {"machineId":"6b5ebc443293a1caaf5a85033229fa3c50fd2938be1e0bddf2007e0486146e35","windowId":2}
+[2020-06-06 10:12:02.033] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-06-06 10:13:45.171] [sharedprocess] [info] Installing extension: tomoki1207.pdf
+[2020-06-06 10:13:46.015] [sharedprocess] [info] Downloaded extension: tomoki1207.pdf /tmp/e9b06be8-892a-4be2-8047-6477d33fc66a
+[2020-06-06 10:13:47.866] [sharedprocess] [info] Extracted extension to /home/wtv/.vscode/extensions/.tomoki1207.pdf-0.6.0: tomoki1207.pdf
+[2020-06-06 10:13:47.866] [sharedprocess] [info] Renamed to /home/wtv/.vscode/extensions/tomoki1207.pdf-0.6.0
+[2020-06-06 10:13:47.867] [sharedprocess] [info] Installation completed. tomoki1207.pdf
+[2020-06-06 10:13:47.957] [sharedprocess] [info] Extensions installed successfully: tomoki1207.pdf
+[2020-06-06 10:14:07.446] [sharedprocess] [info] Uninstalling extension: tomoki1207.pdf
+[2020-06-06 10:14:07.499] [sharedprocess] [info] Successfully uninstalled extension: tomoki1207.pdf
+[2020-06-06 10:14:21.210] [sharedprocess] [info] Installing extension: takanotume24.pdf
+[2020-06-06 10:14:22.069] [sharedprocess] [info] Downloaded extension: takanotume24.pdf /tmp/98ea9149-512b-4f4c-b480-6b9f3200ceaf
+[2020-06-06 10:14:23.644] [sharedprocess] [info] Extracted extension to /home/wtv/.vscode/extensions/.takanotume24.pdf-0.6.1: takanotume24.pdf
+[2020-06-06 10:14:23.645] [sharedprocess] [info] Renamed to /home/wtv/.vscode/extensions/takanotume24.pdf-0.6.1
+[2020-06-06 10:14:23.662] [sharedprocess] [info] Installation completed. takanotume24.pdf
+[2020-06-06 10:14:24.558] [sharedprocess] [info] Extensions installed successfully: takanotume24.pdf

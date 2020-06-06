@@ -1,1 +1,9 @@
-2020/06/04-17:46:00.316 796f Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/06/06-22:02:12.557 6cb Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/06/06-22:02:12.675 6cb Recovering log #30
+2020/06/06-22:02:12.731 6cb Reusing old log /home/wtv/.config/google-chrome/Default/Local Storage/leveldb/000030.log 
+2020/06/06-23:13:38.732 29ed Level-0 table #34: started
+2020/06/06-23:13:39.140 29ed Level-0 table #34: 17119 bytes OK
+2020/06/06-23:13:39.700 29ed Delete type=0 #30
+2020/06/06-22:36:31.474 29ed Level-0 table #36: started
+2020/06/06-22:36:31.882 29ed Level-0 table #36: 16248 bytes OK
+2020/06/06-22:36:32.251 29ed Delete type=0 #33

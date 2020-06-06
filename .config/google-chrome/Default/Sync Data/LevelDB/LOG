@@ -1,4 +1,6 @@
-2020/06/04-17:46:00.316 7967 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/06/04-18:22:54.153 7e7c Level-0 table #5: started
-2020/06/04-18:22:55.576 7e7c Level-0 table #5: 181963 bytes OK
-2020/06/04-18:22:56.375 7e7c Delete type=0 #3
+2020/06/06-22:02:11.817 6d6 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/06/06-22:02:11.817 6d6 Recovering log #189
+2020/06/06-22:02:12.342 6d6 Reusing old log /home/wtv/.config/google-chrome/Default/Sync Data/LevelDB/000189.log 
+2020/06/06-22:57:15.446 22a2 Level-0 table #194: started
+2020/06/06-22:57:15.490 22a2 Level-0 table #194: 110162 bytes OK
+2020/06/06-22:57:15.540 22a2 Delete type=0 #189

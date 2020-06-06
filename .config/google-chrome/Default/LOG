@@ -1,1 +1,5 @@
-2020/06/04-18:09:13.397 7dbb Delete type=3 #1
+2020/06/06-09:51:46.147 9ce7 Recovering log #60
+2020/06/06-09:51:46.147 9ce7 Level-0 table #62: started
+2020/06/06-09:51:46.178 9ce7 Level-0 table #62: 733 bytes OK
+2020/06/06-09:51:46.283 9ce7 Delete type=3 #58
+2020/06/06-09:51:46.283 9ce7 Delete type=0 #60

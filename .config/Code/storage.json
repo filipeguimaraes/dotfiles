@@ -1,20 +1,38 @@
 {
     "telemetry.machineId": "6b5ebc443293a1caaf5a85033229fa3c50fd2938be1e0bddf2007e0486146e35",
     "openedPathsList": {
-        "workspaces3": [],
+        "workspaces3": [
+            "file:///home/wtv/universidade/SO_20/SO1920",
+            "file:///home/wtv/universidade/SO_20/guiao05",
+            "file:///etc/skel/.i3"
+        ],
         "files2": [
+            "file:///home/wtv/universidade/SO_20/guiao05/ex_5.c",
+            "file:///home/wtv/universidade/SO_20/guiao05/ex_4.c",
+            "file:///home/wtv/universidade/SO_20/SO1920/test.txt",
+            "file:///home/wtv/.zshrc",
+            "file:///home/wtv/Downloads/i3-master/.config/i3/config",
+            "file:///home/wtv/.i3/config",
+            "file:///home/wtv/dotfiles/.config/config/polybar.conf",
+            "file:///home/wtv/universidade/university/1ano/README.md",
+            "file:///home/wtv/universidade/university/1ano/1semestre/README.MD",
+            "file:///home/wtv/universidade/university/1ano/README.MD",
+            "file:///usr/share/doc/polybar/config",
+            "file:///etc/skel/.i3/config",
+            "file:///home/wtv/polybar.conf",
             "file:///home/wtv/.profile"
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/wtv/.config/Code/Backups/1591290800476",
+            "folder": "file:///home/wtv/universidade/SO_20/SO1920",
+            "backupPath": "/home/wtv/.config/Code/Backups/e0daa036ddd6d149214331ad4797ca96",
             "uiState": {
                 "mode": 1,
-                "x": 13,
-                "y": 13,
-                "width": 662,
-                "height": 718
+                "x": 0,
+                "y": 27,
+                "width": 1366,
+                "height": 714
             }
         },
         "openedWindows": []
@@ -62,15 +80,139 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "openRecentFile",
+                                    "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/wtv/.profile",
-                                        "path": "/home/wtv/.profile",
+                                        "fsPath": "/home/wtv/universidade/SO_20/SO1920",
+                                        "external": "file:///home/wtv/universidade/SO_20/SO1920",
+                                        "path": "/home/wtv/universidade/SO_20/SO1920",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.profile"
+                                    "label": "~/universidade/SO_20/SO1920"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/universidade/SO_20/guiao05",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/SO_20/guiao05"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/etc/skel/.i3",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/etc/skel/.i3"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/universidade/SO_20/guiao05/ex_5.c",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/SO_20/guiao05/ex_5.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/universidade/SO_20/guiao05/ex_4.c",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/SO_20/guiao05/ex_4.c"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/universidade/SO_20/SO1920/test.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/SO_20/SO1920/test.txt"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/.zshrc",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.zshrc"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/Downloads/i3-master/.config/i3/config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/i3-master/.config/i3/config"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/.i3/config",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.i3/config"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/dotfiles/.config/config/polybar.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dotfiles/.config/config/polybar.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/universidade/university/1ano/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/university/1ano/README.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/universidade/university/1ano/1semestre/README.MD",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/university/1ano/1semestre/README.MD"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/wtv/universidade/university/1ano/README.MD",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/university/1ano/README.MD"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -185,8 +327,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -386,7 +527,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -580,8 +722,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -590,7 +731,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1462,5 +1604,6 @@
                 "userSettingsLabel": "ctrl+shift+i"
             }
         }
-    }
+    },
+    "pickerWorkingDir": "/home/wtv/universidade/SO_20/guiao05"
 }

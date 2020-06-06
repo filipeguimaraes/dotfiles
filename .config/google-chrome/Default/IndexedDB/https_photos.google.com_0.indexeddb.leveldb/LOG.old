@@ -1,0 +1,8 @@
+2020/06/06-12:07:29.296 f121 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/06-12:07:29.297 f121 Recovering log #10
+2020/06/06-12:07:29.297 f121 Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_photos.google.com_0.indexeddb.leveldb/000010.log 
+2020/06/06-12:08:46.172 67df Level-0 table #14: started
+2020/06/06-12:08:46.172 67df Level-0 table #14: 0 bytes OK
+2020/06/06-12:08:46.223 67df Delete type=0 #10
+2020/06/06-12:08:46.223 67df Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/06-12:08:46.224 67df Manual compaction at level-1 from (begin) .. (end); will stop at (end)

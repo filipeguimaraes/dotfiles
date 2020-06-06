@@ -1,0 +1,8 @@
+[2020-06-06 09:17:39.636] [sharedprocess] [info] main {"machineId":"6b5ebc443293a1caaf5a85033229fa3c50fd2938be1e0bddf2007e0486146e35","windowId":2}
+[2020-06-06 09:18:19.646] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-06-06 09:18:34.897] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2020-06-06 09:18:35.784] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools /tmp/a6b2df9b-984f-4301-bf32-86792325ee0b
+[2020-06-06 09:18:36.128] [sharedprocess] [info] Extracted extension to /home/wtv/.vscode/extensions/.ms-vscode.cpptools-0.28.2: ms-vscode.cpptools
+[2020-06-06 09:18:36.129] [sharedprocess] [info] Renamed to /home/wtv/.vscode/extensions/ms-vscode.cpptools-0.28.2
+[2020-06-06 09:18:36.132] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2020-06-06 09:18:36.175] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools

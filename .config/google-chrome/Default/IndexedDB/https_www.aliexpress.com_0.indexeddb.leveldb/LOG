@@ -1,0 +1,5 @@
+2020/06/06-19:54:46.317 6e3 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/06-19:59:57.965 7a3 Level-0 table #5: started
+2020/06/06-19:59:58.117 7a3 Level-0 table #5: 6455 bytes OK
+2020/06/06-19:59:58.190 7a3 Delete type=0 #3
+2020/06/06-19:59:58.190 7a3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
