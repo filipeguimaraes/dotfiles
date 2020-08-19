@@ -1,8 +1,8 @@
-2020/06/06-19:54:10.538 6b6 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/06-19:54:10.539 6b6 Recovering log #28
-2020/06/06-19:54:10.539 6b6 Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000028.log 
-2020/06/06-19:54:12.742 7a3 Level-0 table #32: started
-2020/06/06-19:54:12.742 7a3 Level-0 table #32: 0 bytes OK
-2020/06/06-19:54:12.810 7a3 Delete type=0 #28
-2020/06/06-19:54:12.811 7a3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/06-19:54:12.811 7a3 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2020/08/19-13:57:55.077 557 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-13:57:55.078 557 Recovering log #247
+2020/08/19-13:57:55.078 557 Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000247.log 
+2020/08/19-13:57:57.914 82a Level-0 table #251: started
+2020/08/19-13:57:57.914 82a Level-0 table #251: 0 bytes OK
+2020/08/19-13:57:59.044 82a Delete type=0 #247
+2020/08/19-13:57:59.044 82a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/19-13:57:59.045 82a Manual compaction at level-1 from (begin) .. (end); will stop at (end)

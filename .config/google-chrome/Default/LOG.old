@@ -1,5 +1,5 @@
-2020/06/05-23:50:47.897 3ab7 Recovering log #57
-2020/06/05-23:50:47.946 3ab7 Level-0 table #59: started
-2020/06/05-23:50:48.007 3ab7 Level-0 table #59: 2463 bytes OK
-2020/06/05-23:50:48.115 3ab7 Delete type=3 #55
-2020/06/05-23:50:48.115 3ab7 Delete type=0 #57
+2020/08/14-14:44:11.534 5cb Recovering log #223
+2020/08/14-14:44:11.534 5cb Level-0 table #226: started
+2020/08/14-14:44:11.798 5cb Level-0 table #226: 157 bytes OK
+2020/08/14-14:44:12.444 5cb Delete type=0 #223
+2020/08/14-14:44:12.444 5cb Delete type=3 #221

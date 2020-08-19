@@ -1,3 +1,10 @@
-2020/06/06-22:02:23.509 711 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2020/06/06-22:02:23.511 711 Recovering log #15
-2020/06/06-22:02:23.604 711 Reusing old log /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000015.log 
+2020/08/19-14:15:19.595 2a97 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2020/08/19-14:15:19.596 2a97 Recovering log #185
+2020/08/19-14:15:19.598 2a97 Reusing old log /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000185.log 
+2020/08/19-14:18:30.128 2db0 Level-0 table #194: started
+2020/08/19-14:18:30.591 2da8 Current memtable full; waiting...
+2020/08/19-14:18:31.146 2db0 Level-0 table #194: 3135170 bytes OK
+2020/08/19-14:18:31.211 2db0 Delete type=0 #185
+2020/08/19-14:18:31.215 2db0 Level-0 table #196: started
+2020/08/19-14:18:31.373 2db0 Level-0 table #196: 2261110 bytes OK
+2020/08/19-14:18:31.438 2db0 Delete type=0 #193

@@ -1,0 +1,26 @@
+00:00:00.133400 VirtualBox GUI VM Selector Window 6.1.8 r137981 linux.amd64 (May 18 2020 06:23:25) release log
+00:00:00.133402 Log opened 2020-07-09T23:31:59.945865000Z
+00:00:00.133402 Build Type: release
+00:00:00.133404 OS Product: Linux
+00:00:00.133405 OS Release: 5.6.16-1-MANJARO
+00:00:00.133405 OS Version: #1 SMP PREEMPT Wed Jun 3 14:26:28 UTC 2020
+00:00:00.133430 DMI Product Name: HP Pavilion Laptop 15-cc5xx
+00:00:00.133435 DMI Product Version: Type1ProductConfigId
+00:00:00.133438 Firmware type: UEFI
+00:00:00.134009 Secure Boot: Disabled
+00:00:00.134044 Host RAM: 7848MB (7.6GB) total, 6874MB (6.7GB) available
+00:00:00.134047 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.134047 Process ID: 2668
+00:00:00.134047 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.134079 Qt version: 5.15.0
+00:00:00.144828 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.533343 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 669x1456 x 75x50
+00:00:00.574624 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.920419 GUI: UIInvisibleWindow::sltFallback: Move event haven't came. Screen: 0, work area: 680x1463 x 75x50
+00:00:04.920607 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 680x1463 x 75x50
+00:00:21.385827 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:35.595857 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:01:35.598999 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:35.635037 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:48.297302 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:03:48.341724 GUI: UIMediumEnumerator: Medium-enumeration finished!

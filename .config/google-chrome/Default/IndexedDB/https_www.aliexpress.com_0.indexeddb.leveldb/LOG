@@ -1,5 +1,15 @@
-2020/06/06-19:54:46.317 6e3 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/06-19:59:57.965 7a3 Level-0 table #5: started
-2020/06/06-19:59:58.117 7a3 Level-0 table #5: 6455 bytes OK
-2020/06/06-19:59:58.190 7a3 Delete type=0 #3
-2020/06/06-19:59:58.190 7a3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/22-09:05:09.672 14fb6 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/22-09:05:09.673 14fb6 Recovering log #19
+2020/06/22-09:05:09.674 14fb6 Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.aliexpress.com_0.indexeddb.leveldb/000019.log 
+2020/06/22-09:05:58.372 14ea Level-0 table #24: started
+2020/06/22-09:05:58.440 14ea Level-0 table #24: 7373 bytes OK
+2020/06/22-09:05:58.508 14ea Delete type=0 #19
+2020/06/22-09:05:58.509 14ea Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/22-09:05:58.509 14ea Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x11\x00s\x00i\x00t\x00e\x00_\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00k\x00e\x00y' @ 518 : 1
+2020/06/22-09:05:58.509 14ea Compacting 1@1 + 1@2 files
+2020/06/22-09:05:58.560 14ea Generated table #25@1: 24 keys, 2530 bytes
+2020/06/22-09:05:58.560 14ea Compacted 1@1 + 1@2 files => 2530 bytes
+2020/06/22-09:05:58.610 14ea compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/22-09:05:58.611 14ea Delete type=2 #24
+2020/06/22-09:05:58.611 14ea Delete type=2 #21
+2020/06/22-09:05:58.612 14ea Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x11\x00s\x00i\x00t\x00e\x00_\x00l\x00a\x00n\x00g\x00u\x00a\x00g\x00e\x00_\x00k\x00e\x00y' @ 518 : 1 .. (end); will stop at (end)

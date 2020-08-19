@@ -2,37 +2,70 @@
     "telemetry.machineId": "6b5ebc443293a1caaf5a85033229fa3c50fd2938be1e0bddf2007e0486146e35",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/wtv/universidade/SRCR/SRCR-Fichas-master",
+            "file:///home/wtv/universidade/SRCR/RECURSO/TP",
+            "file:///home/wtv/universidade/PL/PL1920/TP2",
+            "file:///home/wtv/universidade/SRCR/RECURSO",
+            "file:///home/wtv/tmp/TP101",
+            "file:///home/wtv/tmpcg/fase1",
             "file:///home/wtv/universidade/SO_20/SO1920",
+            "file:///home/wtv/universidade/PL/PL1920/TP2/tests_toml",
             "file:///home/wtv/universidade/SO_20/guiao05",
             "file:///etc/skel/.i3"
         ],
         "files2": [
-            "file:///home/wtv/universidade/SO_20/guiao05/ex_5.c",
-            "file:///home/wtv/universidade/SO_20/guiao05/ex_4.c",
-            "file:///home/wtv/universidade/SO_20/SO1920/test.txt",
-            "file:///home/wtv/.zshrc",
-            "file:///home/wtv/Downloads/i3-master/.config/i3/config",
+            "file:///boot/efi/EFI/refind/refind.conf",
+            "file:///boot/efi/EFI/refind/refind.conf.bak",
+            "file:///boot/efi/EFI/refind/refind.conf-sample",
+            "file:///home/wtv/universidade/SRCR/RECURSO/SRCR_individual/Parse/.gitignore",
+            "file:///home/wtv/.config/config/polybar.conf",
             "file:///home/wtv/.i3/config",
+            "file:///home/wtv/universidade/SRCR/RECURSO/Parse/cidades.bak",
+            "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/breadth_first.pl",
+            "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/filter_predicates.pl",
+            "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/path_algorithm.pl",
+            "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/requisitos.pl",
+            "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/prologData/adjacencias.pl",
+            "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/prologData/paragens.pl",
+            "file:///home/wtv/.zshrc",
+            "file:///home/wtv/universidade/SRCR/RECURSO/cidades.xlsx",
+            "file:///home/wtv/universidade/SRCR/RECURSO/importar.py",
+            "file:///home/wtv/importar.py",
+            "file:///home/wtv/.config/mimeapps.list",
+            "file:///home/wtv/.profile",
+            "file:///home/wtv/home/wtv/.config/mimeapps.list",
+            "file:///home/wtv/universidade/SO_20/SO1920/log.idx",
+            "file:///home/wtv/universidade/SO_20/guiao02/ex04.c",
+            "file:///home/wtv/universidade/SO_20/ex2.c",
+            "file:///home/wtv/universidade/SO_20/SO1920/test.txt",
+            "file:///home/wtv/universidade/PL/PL1920/TP2/tests_toml/fruit.toml",
+            "file:///home/wtv/universidade/PL/PL1920/TP2/olatudobem.json",
+            "file:///home/wtv/universidade/PL/PL1920/TP2/tests_toml/example.toml",
+            "file:///home/wtv/universidade/PL/PL1920/TP2/Makefile",
+            "file:///home/wtv/universidade/SO_20/teste.sh",
+            "file:///home/wtv/universidade/SO_20/guiao06/ex1.c",
+            "file:///home/wtv/universidade/SO_20/guiao05/ex_5.c",
+            "file:///home/wtv/universidade/SO_20/SO1920/Makefile",
+            "file:///home/wtv/universidade/SO_20/guiao05/ex_4.c",
+            "file:///home/wtv/Downloads/i3-master/.config/i3/config",
             "file:///home/wtv/dotfiles/.config/config/polybar.conf",
             "file:///home/wtv/universidade/university/1ano/README.md",
             "file:///home/wtv/universidade/university/1ano/1semestre/README.MD",
             "file:///home/wtv/universidade/university/1ano/README.MD",
             "file:///usr/share/doc/polybar/config",
             "file:///etc/skel/.i3/config",
-            "file:///home/wtv/polybar.conf",
-            "file:///home/wtv/.profile"
+            "file:///home/wtv/polybar.conf"
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/wtv/universidade/SO_20/SO1920",
-            "backupPath": "/home/wtv/.config/Code/Backups/e0daa036ddd6d149214331ad4797ca96",
+            "backupPath": "/home/wtv/.config/Code/Backups/1597407604984",
             "uiState": {
                 "mode": 1,
                 "x": 0,
-                "y": 27,
+                "y": 26,
                 "width": 1366,
-                "height": 714
+                "height": 742
             }
         },
         "openedWindows": []
@@ -67,7 +100,7 @@
                         "label": "Open Wor&&kspace..."
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.24",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
@@ -83,7 +116,72 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/wtv/universidade/SO_20/SO1920",
+                                        "external": "file:///home/wtv/universidade/SRCR/SRCR-Fichas-master",
+                                        "path": "/home/wtv/universidade/SRCR/SRCR-Fichas-master",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/SRCR/SRCR-Fichas-master"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wtv/universidade/SRCR/RECURSO/TP",
+                                        "path": "/home/wtv/universidade/SRCR/RECURSO/TP",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/SRCR/RECURSO/TP"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wtv/universidade/PL/PL1920/TP2",
+                                        "path": "/home/wtv/universidade/PL/PL1920/TP2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/PL/PL1920/TP2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wtv/universidade/SRCR/RECURSO",
+                                        "path": "/home/wtv/universidade/SRCR/RECURSO",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/SRCR/RECURSO"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wtv/tmp/TP101",
+                                        "path": "/home/wtv/tmp/TP101",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/tmp/TP101"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wtv/tmpcg/fase1",
+                                        "path": "/home/wtv/tmpcg/fase1",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/tmpcg/fase1"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/wtv/universidade/SO_20/SO1920",
                                         "path": "/home/wtv/universidade/SO_20/SO1920",
                                         "scheme": "file"
@@ -95,6 +193,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/wtv/universidade/PL/PL1920/TP2/tests_toml",
+                                        "path": "/home/wtv/universidade/PL/PL1920/TP2/tests_toml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/universidade/PL/PL1920/TP2/tests_toml"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/wtv/universidade/SO_20/guiao05",
                                         "path": "/home/wtv/universidade/SO_20/guiao05",
                                         "scheme": "file"
                                     },
@@ -105,6 +215,7 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///etc/skel/.i3",
                                         "path": "/etc/skel/.i3",
                                         "scheme": "file"
                                     },
@@ -118,56 +229,62 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/universidade/SO_20/guiao05/ex_5.c",
+                                        "external": "file:///boot/efi/EFI/refind/refind.conf",
+                                        "path": "/boot/efi/EFI/refind/refind.conf",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/universidade/SO_20/guiao05/ex_5.c"
+                                    "label": "/boot/efi/EFI/refind/refind.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/universidade/SO_20/guiao05/ex_4.c",
+                                        "external": "file:///boot/efi/EFI/refind/refind.conf.bak",
+                                        "path": "/boot/efi/EFI/refind/refind.conf.bak",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/universidade/SO_20/guiao05/ex_4.c"
+                                    "label": "/boot/efi/EFI/refind/refind.conf.bak"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/universidade/SO_20/SO1920/test.txt",
+                                        "external": "file:///boot/efi/EFI/refind/refind.conf-sample",
+                                        "path": "/boot/efi/EFI/refind/refind.conf-sample",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/universidade/SO_20/SO1920/test.txt"
+                                    "label": "/boot/efi/EFI/refind/refind.conf-sample"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/.zshrc",
+                                        "external": "file:///home/wtv/universidade/SRCR/RECURSO/SRCR_individual/Parse/.gitignore",
+                                        "path": "/home/wtv/universidade/SRCR/RECURSO/SRCR_individual/Parse/.gitignore",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.zshrc"
+                                    "label": "~/universidade/SRCR/RECURSO/SRCR_individual/Parse/.gitignore"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/Downloads/i3-master/.config/i3/config",
+                                        "external": "file:///home/wtv/.config/config/polybar.conf",
+                                        "path": "/home/wtv/.config/config/polybar.conf",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/i3-master/.config/i3/config"
+                                    "label": "~/.config/config/polybar.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/wtv/.i3/config",
                                         "path": "/home/wtv/.i3/config",
                                         "scheme": "file"
                                     },
@@ -178,41 +295,45 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/dotfiles/.config/config/polybar.conf",
+                                        "external": "file:///home/wtv/universidade/SRCR/RECURSO/Parse/cidades.bak",
+                                        "path": "/home/wtv/universidade/SRCR/RECURSO/Parse/cidades.bak",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/dotfiles/.config/config/polybar.conf"
+                                    "label": "~/universidade/SRCR/RECURSO/Parse/cidades.bak"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/universidade/university/1ano/README.md",
+                                        "external": "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/breadth_first.pl",
+                                        "path": "/home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/breadth_first.pl",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/universidade/university/1ano/README.md"
+                                    "label": "~/universidade/SRCR/goncas/SRCR_Assignement-master/src/breadth_first.pl"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/universidade/university/1ano/1semestre/README.MD",
+                                        "external": "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/filter_predicates.pl",
+                                        "path": "/home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/filter_predicates.pl",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/universidade/university/1ano/1semestre/README.MD"
+                                    "label": "~/universidade/SRCR/goncas/SRCR_Assignement-master/src/filter_predicates.pl"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wtv/universidade/university/1ano/README.MD",
+                                        "external": "file:///home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/path_algorithm.pl",
+                                        "path": "/home/wtv/universidade/SRCR/goncas/SRCR_Assignement-master/src/path_algorithm.pl",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/universidade/university/1ano/README.MD"
+                                    "label": "~/universidade/SRCR/goncas/SRCR_Assignement-master/src/path_algorithm.pl"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -266,7 +387,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.23",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -310,6 +431,13 @@
                                 {
                                     "id": "workbench.action.selectIconTheme",
                                     "label": "File &&Icon Theme"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.userDataSync.actions.turnOn",
+                                    "label": "Turn on Settings Sync..."
                                 }
                             ]
                         }
@@ -327,7 +455,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -501,7 +630,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.15",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -515,7 +644,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleCenteredLayout",
-                                    "label": "Centered Layout"
+                                    "label": "&&Centered Layout"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -527,8 +656,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -583,7 +711,7 @@
                         }
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.21",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -722,7 +850,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -738,7 +867,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.26",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -787,7 +916,7 @@
                         }
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.27",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -988,7 +1117,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "",
+                        "id": "submenuitem.22",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1005,7 +1134,7 @@
                                     "label": "&&Function Breakpoint..."
                                 },
                                 {
-                                    "id": "editor.debug.action.toggleLogPoint",
+                                    "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
                                 }
                             ]
@@ -1605,5 +1734,5 @@
             }
         }
     },
-    "pickerWorkingDir": "/home/wtv/universidade/SO_20/guiao05"
+    "pickerWorkingDir": "/home/wtv/universidade/SRCR"
 }

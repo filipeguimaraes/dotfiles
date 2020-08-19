@@ -1,3 +1,7 @@
 {
-    "window.zoomLevel": -1
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.pl": "prolog"
+    }
 }

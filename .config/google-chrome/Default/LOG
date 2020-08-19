@@ -1,5 +1,5 @@
-2020/06/06-09:51:46.147 9ce7 Recovering log #60
-2020/06/06-09:51:46.147 9ce7 Level-0 table #62: started
-2020/06/06-09:51:46.178 9ce7 Level-0 table #62: 733 bytes OK
-2020/06/06-09:51:46.283 9ce7 Delete type=3 #58
-2020/06/06-09:51:46.283 9ce7 Delete type=0 #60
+2020/08/14-15:43:23.257 11fd6 Recovering log #227
+2020/08/14-15:43:23.257 11fd6 Level-0 table #229: started
+2020/08/14-15:43:24.087 11fd6 Level-0 table #229: 12135 bytes OK
+2020/08/14-15:43:25.601 11fd6 Delete type=0 #227
+2020/08/14-15:43:25.601 11fd6 Delete type=3 #225

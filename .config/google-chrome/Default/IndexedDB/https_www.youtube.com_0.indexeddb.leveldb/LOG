@@ -1,8 +1,15 @@
-2020/06/06-23:13:29.308 245d Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/06-23:13:29.308 245d Recovering log #14
-2020/06/06-23:13:29.308 245d Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000014.log 
-2020/06/06-22:35:49.625 85d Level-0 table #18: started
-2020/06/06-22:35:49.625 85d Level-0 table #18: 0 bytes OK
-2020/06/06-22:35:49.762 85d Delete type=0 #14
-2020/06/06-22:35:49.762 85d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/06-22:35:49.762 85d Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2020/08/14-15:20:24.246 f75 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/14-15:20:24.246 f75 Recovering log #304
+2020/08/14-15:20:24.246 f75 Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000304.log 
+2020/08/14-15:29:59.945 b50 Level-0 table #308: started
+2020/08/14-15:29:59.979 b50 Level-0 table #308: 190 bytes OK
+2020/08/14-15:30:00.030 b50 Delete type=0 #304
+2020/08/14-15:30:00.030 b50 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/14-15:30:00.031 b50 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 3742 : 1
+2020/08/14-15:30:00.031 b50 Compacting 1@1 + 1@2 files
+2020/08/14-15:30:00.064 b50 Generated table #309@1: 46 keys, 1851 bytes
+2020/08/14-15:30:00.064 b50 Compacted 1@1 + 1@2 files => 1851 bytes
+2020/08/14-15:30:00.115 b50 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/14-15:30:00.115 b50 Delete type=2 #302
+2020/08/14-15:30:00.115 b50 Delete type=2 #308
+2020/08/14-15:30:00.115 b50 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 3742 : 1 .. (end); will stop at (end)
