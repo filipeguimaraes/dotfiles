@@ -1,3 +1,0 @@
-{
-	"persist:root": "{\"onboarding\":\"{\\\"onboardingShown\\\":[\\\"onboarding-modal\\\",\\\"conference-url\\\",\\\"settings-drawer-button\\\",\\\"name-setting\\\",\\\"email-setting\\\",\\\"start-muted-toggles\\\",\\\"server-setting\\\",\\\"server-timeout\\\",\\\"always-on-top-window\\\"]}\",\"recentList\":\"{\\\"recentList\\\":[{\\\"room\\\":\\\"OPERATIVESYSTEMSDEPRESSION\\\",\\\"serverURL\\\":\\\"https://meet.jit.si\\\",\\\"startTime\\\":1591720082482}]}\",\"settings\":\"{\\\"alwaysOnTopWindowEnabled\\\":true,\\\"email\\\":\\\"fmtfg99@gmail.com\\\",\\\"name\\\":\\\"KITKAT\\\",\\\"startWithAudioMuted\\\":true,\\\"startWithVideoMuted\\\":true}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
-}

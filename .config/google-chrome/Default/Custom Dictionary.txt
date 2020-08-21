@@ -1,6 +1,0 @@
-15h30
-18h00
-Belmira
-apetesse
-time
-checksum_v1 = 1030b9d26d7864ae3630db95c2cf57a5
