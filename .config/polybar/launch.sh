@@ -1,11 +1,10 @@
-<#!/usr/bin/env bash>
+#!/usr/bin/env sh
 
 # Terminate already running bar instances
 killall -q polybar
-# If all your bars have ipc enabled, you can also use 
-# polybar-msg cmd quit
 
-# Launch bar1 and bar2
-exec polybar top -r -c ~/.config/config/polybar.conf
+# Wait until the processes have been shut down
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
-echo "Bars launched..."
+# Launch polybar
+polybar main -c $HOME/.config/polybar/config.ini &
