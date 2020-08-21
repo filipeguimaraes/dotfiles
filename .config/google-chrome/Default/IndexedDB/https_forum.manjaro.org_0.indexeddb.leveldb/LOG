@@ -1,3 +1,15 @@
-2020/08/19-14:19:32.868 2da7 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-14:19:32.868 2da7 Recovering log #79
-2020/08/19-14:19:32.868 2da7 Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000079.log 
+2020/08/20-14:24:56.081 3d17 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/20-14:24:56.081 3d17 Recovering log #43
+2020/08/20-14:24:56.081 3d17 Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000043.log 
+2020/08/20-14:25:33.529 2cbd Level-0 table #48: started
+2020/08/20-14:25:33.909 2cbd Level-0 table #48: 27801 bytes OK
+2020/08/20-14:25:34.511 2cbd Delete type=0 #43
+2020/08/20-14:25:34.511 2cbd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/20-14:25:34.512 2cbd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xb0\xa3\xb3\xc0@wB\x00\x01n\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x001\x00X\x00/\x002\x00e\x00a\x00f\x007\x00f\x00e\x008\x00d\x009\x00d\x00e\x004\x003\x009\x001\x002\x00b\x009\x006\x003\x00d\x00e\x007\x009\x008\x002\x00e\x00d\x007\x004\x00c\x00d\x008\x003\x006\x001\x004\x009\x00e\x00.\x00p\x00n\x00g' @ 8542 : 1
+2020/08/20-14:25:34.512 2cbd Compacting 1@1 + 1@2 files
+2020/08/20-14:25:34.885 2cbd Generated table #49@1: 434 keys, 57064 bytes
+2020/08/20-14:25:34.885 2cbd Compacted 1@1 + 1@2 files => 57064 bytes
+2020/08/20-14:25:35.398 2cbd compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/20-14:25:35.399 2cbd Delete type=2 #45
+2020/08/20-14:25:35.399 2cbd Delete type=2 #48
+2020/08/20-14:25:35.400 2cbd Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xb0\xa3\xb3\xc0@wB\x00\x01n\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x001\x00X\x00/\x002\x00e\x00a\x00f\x007\x00f\x00e\x008\x00d\x009\x00d\x00e\x004\x003\x009\x001\x002\x00b\x009\x006\x003\x00d\x00e\x007\x009\x008\x002\x00e\x00d\x007\x004\x00c\x00d\x008\x003\x006\x001\x004\x009\x00e\x00.\x00p\x00n\x00g' @ 8542 : 1 .. (end); will stop at (end)

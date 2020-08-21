@@ -1,15 +1,15 @@
-2020/08/19-14:17:29.000 2a9d Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/19-14:17:29.001 2a9d Recovering log #75
-2020/08/19-14:17:29.001 2a9d Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000075.log 
-2020/08/19-14:19:16.649 2c8f Level-0 table #80: started
-2020/08/19-14:19:17.132 2c8f Level-0 table #80: 91069 bytes OK
-2020/08/19-14:19:17.183 2c8f Delete type=0 #75
-2020/08/19-14:19:17.184 2c8f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/08/19-14:19:17.184 2c8f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xf02\xefm@wB\x00\x01i\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00u\x00/\x00c\x00h\x00e\x00c\x00k\x00_\x00u\x00s\x00e\x00r\x00n\x00a\x00m\x00e\x00?\x00u\x00s\x00e\x00r\x00n\x00a\x00m\x00e\x00=\x00f\x00i\x00l\x00i\x00p\x00e\x00g\x00u\x00i\x00m\x00a\x00r\x00a\x00e\x00s\x00&\x00e\x00m\x00a\x00i\x00l\x00=\x00f\x00m\x00t\x00f\x00g\x009\x009\x00%\x004\x000\x00g\x00m\x00a\x00i\x00l\x00.\x00c\x00o\x00m' @ 31376 : 1
-2020/08/19-14:19:17.185 2c8f Compacting 1@1 + 1@2 files
-2020/08/19-14:19:17.228 2c8f Generated table #81@1: 685 keys, 70353 bytes
-2020/08/19-14:19:17.228 2c8f Compacted 1@1 + 1@2 files => 70353 bytes
-2020/08/19-14:19:17.279 2c8f compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/08/19-14:19:17.280 2c8f Delete type=2 #80
-2020/08/19-14:19:17.280 2c8f Delete type=2 #77
-2020/08/19-14:19:17.280 2c8f Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xf02\xefm@wB\x00\x01i\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00u\x00/\x00c\x00h\x00e\x00c\x00k\x00_\x00u\x00s\x00e\x00r\x00n\x00a\x00m\x00e\x00?\x00u\x00s\x00e\x00r\x00n\x00a\x00m\x00e\x00=\x00f\x00i\x00l\x00i\x00p\x00e\x00g\x00u\x00i\x00m\x00a\x00r\x00a\x00e\x00s\x00&\x00e\x00m\x00a\x00i\x00l\x00=\x00f\x00m\x00t\x00f\x00g\x009\x009\x00%\x004\x000\x00g\x00m\x00a\x00i\x00l\x00.\x00c\x00o\x00m' @ 31376 : 1 .. (end); will stop at (end)
+2020/08/20-12:48:52.225 2b5d Reusing MANIFEST /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/20-12:48:52.225 2b5d Recovering log #39
+2020/08/20-12:48:52.225 2b5d Reusing old log /home/wtv/.config/google-chrome/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000039.log 
+2020/08/20-12:49:25.795 2cbd Level-0 table #44: started
+2020/08/20-12:49:26.655 2cbd Level-0 table #44: 27584 bytes OK
+2020/08/20-12:49:27.179 2cbd Delete type=0 #39
+2020/08/20-12:49:27.180 2cbd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/20-12:49:27.180 2cbd Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x000]4\xbb@wB\x00\x01M\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00n\x00t\x00s\x00.\x00g\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00c\x00o\x00m\x00/\x00s\x00/\x00r\x00o\x00b\x00o\x00t\x00o\x00/\x00v\x002\x000\x00/\x00K\x00F\x00O\x00m\x00C\x00n\x00q\x00E\x00u\x009\x002\x00F\x00r\x001\x00M\x00u\x004\x00m\x00x\x00K\x00.\x00w\x00o\x00f\x00f\x002' @ 8041 : 1
+2020/08/20-12:49:27.181 2cbd Compacting 1@1 + 1@2 files
+2020/08/20-12:49:27.397 2cbd Generated table #45@1: 430 keys, 56514 bytes
+2020/08/20-12:49:27.397 2cbd Compacted 1@1 + 1@2 files => 56514 bytes
+2020/08/20-12:49:27.516 2cbd compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/20-12:49:27.517 2cbd Delete type=2 #44
+2020/08/20-12:49:27.517 2cbd Delete type=2 #41
+2020/08/20-12:49:27.519 2cbd Manual compaction at level-1 from '\x00\x01\x01 \x03\x000]4\xbb@wB\x00\x01M\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00n\x00t\x00s\x00.\x00g\x00s\x00t\x00a\x00t\x00i\x00c\x00.\x00c\x00o\x00m\x00/\x00s\x00/\x00r\x00o\x00b\x00o\x00t\x00o\x00/\x00v\x002\x000\x00/\x00K\x00F\x00O\x00m\x00C\x00n\x00q\x00E\x00u\x009\x002\x00F\x00r\x001\x00M\x00u\x004\x00m\x00x\x00K\x00.\x00w\x00o\x00f\x00f\x002' @ 8041 : 1 .. (end); will stop at (end)

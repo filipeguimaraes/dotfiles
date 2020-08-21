@@ -1,21 +1,3 @@
-2020/08/19-13:57:49.810 557 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2020/08/19-13:57:49.813 557 Recovering log #182
-2020/08/19-13:57:49.875 557 Reusing old log /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000182.log 
-2020/08/19-14:01:01.970 9b7 Level-0 table #186: started
-2020/08/19-14:01:02.074 9b7 Level-0 table #186: 1883570 bytes OK
-2020/08/19-14:01:02.126 9b7 Delete type=0 #182
-2020/08/19-14:01:02.127 9b7 Compacting 4@0 + 3@1 files
-2020/08/19-14:01:02.205 9b7 Generated table #187@0: 19 keys, 2098887 bytes
-2020/08/19-14:01:02.274 9b7 Generated table #188@0: 8 keys, 2119547 bytes
-2020/08/19-14:01:02.348 9b7 Generated table #189@0: 9 keys, 2710142 bytes
-2020/08/19-14:01:02.423 9b7 Generated table #190@0: 4 keys, 2276464 bytes
-2020/08/19-14:01:02.507 9b7 Generated table #191@0: 14 keys, 665223 bytes
-2020/08/19-14:01:02.507 9b7 Compacted 4@0 + 3@1 files => 9870263 bytes
-2020/08/19-14:01:02.556 9b7 compacted to: files[ 0 5 1 0 0 0 0 ]
-2020/08/19-14:01:02.557 9b7 Delete type=2 #183
-2020/08/19-14:01:02.557 9b7 Delete type=2 #174
-2020/08/19-14:01:02.557 9b7 Delete type=2 #176
-2020/08/19-14:01:02.557 9b7 Delete type=2 #186
-2020/08/19-14:01:02.557 9b7 Delete type=2 #181
-2020/08/19-14:01:02.557 9b7 Delete type=2 #175
-2020/08/19-14:01:02.557 9b7 Delete type=2 #179
+2020/08/20-19:15:10.273 88cd Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2020/08/20-19:15:10.273 88cd Recovering log #12
+2020/08/20-19:15:10.273 88cd Reusing old log /home/wtv/.config/google-chrome/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000012.log 

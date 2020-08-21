@@ -1,3 +1,15 @@
-2020/08/19-13:57:20.292 576 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/08/19-13:57:20.293 576 Recovering log #1219
-2020/08/19-13:57:20.402 576 Reusing old log /home/wtv/.config/google-chrome/Default/Sync Data/LevelDB/001219.log 
+2020/08/20-19:15:09.724 8843 Reusing MANIFEST /home/wtv/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/08/20-19:15:09.724 8843 Recovering log #26
+2020/08/20-19:15:09.724 8843 Reusing old log /home/wtv/.config/google-chrome/Default/Sync Data/LevelDB/000026.log 
+2020/08/21-10:13:05.018 9436 Level-0 table #30: started
+2020/08/21-10:13:05.053 9436 Level-0 table #30: 106166 bytes OK
+2020/08/21-10:13:05.105 9436 Delete type=0 #26
+2020/08/21-10:13:05.105 9436 Compacting 4@0 + 1@1 files
+2020/08/21-10:13:05.173 9436 Generated table #31@0: 94 keys, 16422 bytes
+2020/08/21-10:13:05.173 9436 Compacted 4@0 + 1@1 files => 16422 bytes
+2020/08/21-10:13:05.224 9436 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/08/21-10:13:05.225 9436 Delete type=2 #25
+2020/08/21-10:13:05.225 9436 Delete type=2 #30
+2020/08/21-10:13:05.225 9436 Delete type=2 #19
+2020/08/21-10:13:05.225 9436 Delete type=2 #22
+2020/08/21-10:13:05.225 9436 Delete type=2 #27
