@@ -1,1 +1,3 @@
-[dotfiles](./image.png)
+.DotFiles
+
+![dotfiles](./image.png)
