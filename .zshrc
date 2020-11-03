@@ -105,5 +105,8 @@ alias please=sudo
 alias y=yay
 alias uni="cd ~/university"
 alias sicstus=/usr/local/sicstus4.3.0/bin/sicstus
+alias core="./spells/core.sh"
 
 neofetch
+fortune
+echo 

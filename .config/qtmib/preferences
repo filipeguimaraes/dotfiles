@@ -1,0 +1,5 @@
+protocol:v2c
+community:public
+port:161
+timeout:1
+retries:5
