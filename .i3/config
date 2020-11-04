@@ -78,8 +78,7 @@ bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 bindsym XF86Display exec --no-startup-id arandr
 bindsym $mod+p exec --no-startup-id arandr
 #bindsym $mod+a exec albert
-
-
+bindsym $mod+a exec ~/spells/rofi.sh
 # focus_follows_mouse no
 
 # change focus
@@ -300,7 +299,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
-exec --no-startup-id albert
+#exec --no-startup-id albert
 exec --no-startup-id jetbrains-toolbox --minimize
 exec --no-startup-id blueman-applet
 # exec_always --no-startup-id sbxkb
