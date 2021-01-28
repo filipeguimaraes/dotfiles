@@ -1,0 +1,29 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=latex)
+ \write18 enabled.
+entering extended mode
+(./tmpfile.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-03> xparse <2020-03-03>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texmf-dist/tex/latex/graphics-def/dvips.def)
+(/usr/share/texmf-dist/tex/latex/graphics/dvipsnam.def))
+(/usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-dvips.def)
+No file tmpfile.aux.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) [1] (./tmpfile.aux) )
+Output written on tmpfile.dvi (1 page, 340 bytes).
+Transcript written on tmpfile.log.

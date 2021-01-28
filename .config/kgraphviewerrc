@@ -1,0 +1,12 @@
+[MainWindow]
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAMAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgB2AGkAZQB3AFQAbwBvAGwAQgBhAHIBAAABvP////8AAAAAAAAAAAAAABYAaABlAGwAcABUAG8AbwBsAEIAYQByAQAAA6j/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP1 Height 768=742
+eDP1 Width 1366=1366
+eDP1 XPosition=0
+eDP1 YPosition=26
+
+[kgraphviewer recent files]
+File1[$e]=$HOME/universidade/RM/RedesMoveis_TP1/the-one-master/reports/redes_moveis_AdjacencyGraphvizReport.dot
+Name1[$e]=redes_moveis_AdjacencyGraphvizReport.dot

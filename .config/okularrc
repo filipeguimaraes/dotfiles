@@ -1,0 +1,28 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKYAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP1 HDMI1 Height 768=742
+eDP1 HDMI1 Width 1366=1366
+eDP1 HDMI1 XPosition=0
+eDP1 HDMI1 YPosition=58
+eDP1 Height 768=742
+eDP1 Width 1366=1366
+eDP1 XPosition=0
+eDP1 YPosition=26
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/grp2-FwTP5-9h.pdf
+File2[$e]=$HOME/universidade/GR/teste/resolucoes/GR-Teste-12-nov-2018.pdf
+File3[$e]=$HOME/Downloads/GR_teste1_2019.pdf
+File4[$e]=$HOME/universidade/GR/teste/joana/NetManag-Part-A_EDITED.pdf
+File5[$e]=$HOME/universidade/GR/teste/presentations/NetManag-Part-B.pdf
+File6[$e]=$HOME/Downloads/HW_Penetration_Testing-en-v2a.pdf
+Name1[$e]=grp2-FwTP5-9h.pdf
+Name2[$e]=GR-Teste-12-nov-2018.pdf
+Name3[$e]=GR_teste1_2019.pdf
+Name4[$e]=NetManag-Part-A_EDITED.pdf
+Name5[$e]=NetManag-Part-B.pdf
+Name6[$e]=HW_Penetration_Testing-en-v2a.pdf

@@ -1,4 +1,4 @@
-# Common recent settings file for Wireshark 3.2.7.
+# Common recent settings file for Wireshark 3.4.2.
 #
 # This file is regenerated each time Wireshark is quit
 # and when changing configuration profile.
@@ -6,12 +6,20 @@
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
+recent.capture_file: /home/wtv/universidade/SR/ExemploTrafego1.pcap
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
+recent.display_filter: icmp and ip.src==10.0.1.2
+recent.display_filter: ip.addr == 10.0.1.2
+recent.display_filter: ip
+recent.display_filter: tcp
+recent.display_filter: udp
+recent.display_filter: rsvp
+recent.display_filter: icmp
 
 # Main window geometry.
 # Decimal numbers.
@@ -47,9 +55,9 @@ gui.geometry_status_wlan_stats_pane: 200
 # TRUE or FALSE (case-insensitive).
 privs.warn_if_elevated: TRUE
 
-# Warn if npf.sys isn't loaded on Windows >= 6.0.
+# Warn if Wireshark is unable to capture.
 # TRUE or FALSE (case-insensitive).
-privs.warn_if_no_npf: TRUE
+sys.warn_if_no_capture: TRUE
 
 # Find packet search in.
 # One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
@@ -66,6 +74,15 @@ gui.search_case_sensitive: FALSE
 # Find packet search type.
 # One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
 gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 687
+gui.geom.PacketDialog.y: 32
+gui.geom.PacketDialog.width: 671
+gui.geom.PacketDialog.height: 728
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: FALSE
 
 # Custom colors.
 # List of custom colors selected in Qt color picker.

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preferences xmlns='http://josm.openstreetmap.de/preferences-1.0' version='17084'>
-  <tag key='cache.capabilities1637351842' value='1604151274'/>
-  <tag key='cache.motd.html' value='1604151273'/>
+  <tag key='cache.capabilities1637351842' value='1605372579'/>
+  <tag key='cache.motd.html' value='1605627534'/>
   <tag key='cache.motd.html.java' value='14.0.2'/>
   <tag key='cache.motd.html.lang' value='En:'/>
   <tag key='cache.motd.html.version' value='17084'/>
-  <tag key='draw.rawgps.lines' value='-1'/>
+  <tag key='changesetdialog.lastHeight' value='0'/>
+  <tag key='commandstack.lastHeight' value='0'/>
+  <tag key='conflict.lastHeight' value='0'/>
+  <list key='file-open.history'>
+    <entry value='/home/wtv/universidade/RM/RedesMoveis_TP1/Braga.osm'/>
+    <entry value='/home/wtv/universidade/RM/Braga.json'/>
+  </list>
+  <tag key='filter.lastHeight' value='72'/>
+  <tag key='filter.visible' value='true'/>
+  <tag key='gui.geometry' value='x=-1,y=4,width=1368,height=765'/>
   <maps key='imagery.entries'>
     <map>
       <tag key='max-zoom' value='22'/>
@@ -157,20 +166,59 @@
     <entry value='standard'/>
   </list>
   <tag key='josm.version' value='17084'/>
+  <tag key='lastDirectory' value='/home/wtv/universidade/RM/RedesMoveis_TP1'/>
+  <tag key='layerlist.lastHeight' value='0'/>
+  <tag key='layerlist.visible' value='false'/>
   <tag key='mappaint.renderer-class-name' value='org.openstreetmap.josm.data.osm.visitor.paint.StyledMapRenderer'/>
   <list key='mappaint.style.known-defaults'>
     <entry value='resource://styles/standard/elemstyles.mapcss'/>
     <entry value='resource://styles/standard/potlatch2.mapcss'/>
   </list>
+  <tag key='mapstyle.lastHeight' value='0'/>
+  <tag key='message.delete_outside_nodes' value='false'/>
+  <tag key='message.delete_outside_nodes.value' value='0'/>
+  <tag key='message.delete_relations' value='false'/>
+  <tag key='message.delete_relations.value' value='0'/>
+  <tag key='minimap.lastHeight' value='0'/>
   <list key='mirror.https://josm.openstreetmap.de/maps'>
-    <entry value='1604151274527'/>
+    <entry value='1605627535104'/>
     <entry value='/home/wtv/.cache/JOSM/mirror_https___josm.openstreetmap.de_maps'/>
   </list>
   <list key='mirror.https://josm.openstreetmap.de/remote/geofabrik-index-v1-nogeom.json'>
-    <entry value='1604151273813'/>
+    <entry value='1605372579174'/>
     <entry value='/home/wtv/.cache/JOSM/mirror_https___josm.openstreetmap.de_remote_geofabrik-index-v1-nogeom.json'/>
   </list>
-  <tag key='org.openstreetmap.josm.gui.download.DownloadDialog.geometry' value='x=182,y=64,width=1000,height=600'/>
-  <tag key='osm-download.bounds' value='41.5255436;-8.4749222;41.5769296;-8.3777618'/>
+  <list key='mirror.https://josm.openstreetmap.de/styles'>
+    <entry value='1605372718304'/>
+    <entry value='/home/wtv/.cache/JOSM/mirror_https___josm.openstreetmap.de_styles'/>
+  </list>
+  <tag key='notes/note_open.lastHeight' value='0'/>
+  <tag key='org.openstreetmap.josm.gui.dialogs.DeleteFromRelationConfirmationDialog.geometry' value='x=1252,y=270,width=400,height=200'/>
+  <tag key='org.openstreetmap.josm.gui.dialogs.properties.TagEditHelper$AddTagsDialog.geometry' value='x=1295,y=385,width=309,height=244'/>
+  <tag key='org.openstreetmap.josm.gui.dialogs.relation.GenericRelationEditor.geometry' value='x=334,y=1119,width=700,height=650'/>
+  <tag key='org.openstreetmap.josm.gui.download.DownloadDialog.geometry' value='x=463,y=146,width=902,height=600'/>
+  <tag key='osm-download.bounds' value='41.5459745;-8.4310627;41.5520446;-8.4160852'/>
   <tag key='preferences.reset.draw.rawgps.lines' value='true'/>
+  <tag key='propertiesdialog.lastHeight' value='20'/>
+  <tag key='propertiesdialog.minimized' value='true'/>
+  <tag key='relationlist.lastHeight' value='200'/>
+  <list key='search.history'>
+    <entry value='R preset:&quot;Geography/Nature/Tree&quot;'/>
+    <entry value='R street lamp'/>
+    <entry value='R building'/>
+    <entry value='R tower'/>
+    <entry value='R shop preset:&quot;Facilities/Accommodation/Hotel&quot;'/>
+    <entry value='R shop'/>
+    <entry value='R shop=coffee'/>
+    <entry value='R bank'/>
+    <entry value='R house number'/>
+    <entry value='R largo'/>
+    <entry value='R preset:&quot;Shops/Food/Coffee&quot;'/>
+    <entry value='R  preset:&quot;Facilities/Culture/Artwork&quot;'/>
+    <entry value='R preset:&quot;Facilities/Culture/Arts Centre&quot;'/>
+    <entry value='R preset:&quot;Facilities/Culture/Arts Centre&quot; preset:&quot;Facilities/Culture/Artwork&quot;'/>
+  </list>
+  <tag key='selectionlist.lastHeight' value='468'/>
+  <tag key='userlist.lastHeight' value='0'/>
+  <tag key='validator.lastHeight' value='0'/>
 </preferences>

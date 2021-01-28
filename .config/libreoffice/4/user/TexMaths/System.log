@@ -1,0 +1,7 @@
+Linux wtv-pc 5.10.2-2-MANJARO #1 SMP PREEMPT Tue Dec 22 08:14:42 UTC 2020 x86_64 GNU/Linux
+
+osType=Linux
+cpuType=i386
+
+PATH=/usr/bin/:/usr/lib/libreoffice/program/../share/extensions/texmaths/bin/Linuxi386:/home/wtv/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
