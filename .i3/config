@@ -52,6 +52,7 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
 
+
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
@@ -81,7 +82,8 @@ bindsym XF86Display exec --no-startup-id arandr
 bindsym $mod+p exec --no-startup-id arandr
 #bindsym $mod+a exec albert
 bindsym $mod+a exec ~/spells/rofi.sh
-bindsym $mod+c exec --no-startup-id orage --toggle
+bindsym $mod+m exec ~/spells/reset_touchpad.sh
+#bindsym $mod+c exec --no-startup-id orage --toggle
 
 # focus_follows_mouse no
 
@@ -254,7 +256,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # Set shut down, restart and locking features
 bindsym $mod+Shift+Escape mode "$mode_system"
-bindsym XF86PowerOff mode "$mode_system"
+#bindsym XF86PowerOff mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id betterlockscreen --lock 
@@ -269,6 +271,9 @@ mode "$mode_system" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
+bindsym XF86PowerOff exec ~/.config/rofi/bin/applet_powermenu 
+
 
 # Resize window (you can also use the mouse for that)
 bindsym $mod+r mode "resize"
@@ -315,6 +320,7 @@ exec --no-startup-id jetbrains-toolbox --minimize
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec --no-startup-id orage
+exec --no-startup-id volnoti
 
 #Enable natural scrolling
 exec --no-startup-id xinput --set-prop "ETPS/2 Elantech Touchpad" "libinput Natural Scrolling Enabled" 1
