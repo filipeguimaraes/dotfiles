@@ -106,11 +106,18 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 alias TERMINAL=termite
 alias manjaro=neofetch
 alias please='fuck'
+alias f='fuck'
 alias y=yay
 alias uni="cd ~/university"
 alias sicstus=/usr/local/sicstus4.3.0/bin/sicstus
 alias core="./spells/core.sh"
 alias default_browser=google-chrome-stable
+alias vr='cd ~/universidade/2semestre/VR'
+alias srcr='cd ~/universidade/2semestre/SRCR'
+alias qos='cd ~/universidade/2semestre/QoS'
+alias lei='cd ~/universidade/2semestre/LEI'
+alias amu='cd ~/universidade/2semestre/AMU'
+alias aer='cd ~/universidade/2semestre/AER'
 
 
 PATH="/home/wtv/perl5/bin${PATH:+:${PATH}}"; export PATH;

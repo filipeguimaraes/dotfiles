@@ -27,7 +27,7 @@
 [info   ] IrrDriver: OpenGL version: 4.6
 [info   ] IrrDriver: OpenGL vendor: Intel
 [info   ] IrrDriver: OpenGL renderer: Mesa Intel(R) HD Graphics 620 (KBL GT2)
-[info   ] IrrDriver: OpenGL version string: 4.6 (Core Profile) Mesa 20.3.4
+[info   ] IrrDriver: OpenGL version string: 4.6 (Core Profile) Mesa 21.0.3
 [info   ] GLDriver: ARB Buffer Storage Present
 [info   ] GLDriver: ARB Compute Shader Present
 [info   ] GLDriver: ARB Arrays of Arrays Present
@@ -61,10 +61,8 @@
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/colortexturedquad.vert
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/colortexturedquad.frag
 [info   ] irr_driver: GLSL supported.
-[info   ] SDLController: Xbox Gamepad (userspace driver) #2 plugged in: buttons: 11, axes: 6, hats: 1.
-[info   ] SDLController: Xbox Gamepad (userspace driver) #2 uses game controller mapping Xbox Gamepad (userspace driver).
-[info   ] SDLController: Xbox Gamepad (userspace driver) plugged in: buttons: 11, axes: 6, hats: 1.
-[info   ] SDLController: Xbox Gamepad (userspace driver) uses game controller mapping Xbox Gamepad (userspace driver).
+[info   ] SDLController: Microsoft X-Box pad v2 (US) plugged in: buttons: 10, axes: 6, hats: 1.
+[info   ] SDLController: Microsoft X-Box pad v2 (US) uses game controller mapping Microsoft X-Box pad v2 (US).
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_pass.vert
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_solid.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_shadow.vert
@@ -92,7 +90,14 @@
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_normal_visualizer.frag
 [info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/saved-session/
 [info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/xml/online_news.xml
+[info   ] addons: Using cached addons.xml.
 [warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
+
+[warn   ] track: Music information file 'TheDeadRocks-EasyJob.music' not found for track 'Coyote Canyon' - ignored.
+
+[warn   ] track: Music information for track 'Coyote Canyon' replaced by default music.
+
+[warn   ] Track: NavMesh is not found for arena Mall, disable AI for it.
 
 [info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
 [info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
@@ -101,44 +106,66 @@
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
-[error  ] XMLRequest::afterOperation: curl_easy_perform() failed: SSL connect error
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/xml/online_news.xml
-[error  ] news: Error downloading news: 'SSL connect error'.
-[info   ] addons: Using cached addons.xml.
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Sending username=wtv&password=**********&save-session=true to https://online.supertuxkart.net/api/v2/user/connect/
-[error  ] XMLRequest::afterOperation: curl_easy_perform() failed: SSL connect error
-[info   ] HTTPRequest: Sending username=wtv&password=**********&save-session=true to https://online.supertuxkart.net/api/v2/user/connect/
-[error  ] XMLRequest::afterOperation: curl_easy_perform() failed: SSL connect error
-[info   ] HTTPRequest: Sending username=wtv&password=**********&save-session=true to https://online.supertuxkart.net/api/v2/user/connect/
-[info   ] HTTPRequest: Sending username=wtv&password=**********&save-session=true to https://online.supertuxkart.net/api/v2/user/connect/
+[warn   ] KartProperties: Can't find kart type '' for kart '4-wheeled Adiumy', defaulting to 'light'.
+[warn   ] KartProperties: Can't find kart type 'ultra_heavy' for kart 'Beastie Performance', defaulting to 'light'.
+[warn   ] KartProperties: Can't find kart type '' for kart 'Blinky', defaulting to 'light'.
+[warn   ] KartProperties: Can't find kart type '' for kart 'Buggie', defaulting to 'light'.
+[warn   ] SPMeshBuffer: solid_pbr shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: solid_pbr shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: solid_pbr shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: solid_pbr shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: solid_pbr shader is missing, fallback to solid
+[warn   ] Material: Cannot determine texture full path: genericshadow.png
+[warn   ] KartProperties: Can't find kart type '' for kart 'Elephpant', defaulting to 'light'.
+[warn   ] Material: Cannot determine texture full path: generic_shadow.png
+[warn   ] Material: Cannot determine texture full path: chromed-metal.jpg
+[warn   ] Material: Cannot determine texture full path: Flag.png
+[warn   ] Material: Cannot determine texture full path: Flag_gloss.png
+[warn   ] Material: Cannot determine texture full path: Hachette.png
+[warn   ] Material: Cannot determine texture full path: Hachette_gloss.png
+[warn   ] Material: Cannot determine texture full path: kiki_exhaust.png
+[warn   ] Material: Cannot determine texture full path: wut.png
+[warn   ] KartProperties: Can't find kart type '' for kart 'Transmission', defaulting to 'light'.
+[info   ] Achievements: Synching achievement 2,5,7,8,9 to server.
+[info   ] HTTPRequest: Sending userid=284429&token=************************&achievementid=2%2C5%2C7%2C8%2C9 to https://online.supertuxkart.net/api/v2/user/achieving/
 [info   ] HTTPRequest: Sending userid=284429&token=************************&visitingid=284429 to https://online.supertuxkart.net/api/v2/user/get-friends-list/
 [info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=284429&token=************************&visitingid=284429 to https://online.supertuxkart.net/api/v2/user/get-friends-list/
-[error  ] Online Player Profile: Poll request failed
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
+[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
+[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
+[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
+[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
 [info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
-[info   ] NetworkConfig: System is dual stack network.
-[info   ] ServerInfoDialog: Server id is 246498, owner is 148411
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ServerInfoDialog: Server id is 288021, owner is 287075
 [info   ] STKHost: Host initialized.
 [info   ] ConnectToServer: SETUP
 [info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
-[info   ] ConnectToServer: Registering addr 37.189.126.26:55277
-[info   ] HTTPRequest: Sending userid=284429&token=************************&server-id=246498&address=633175578&address-ipv6=&port=55277&aes-key=****************************&aes-iv=hO0IuGrPRZ4Slur2 to https://online.supertuxkart.net/api/v2/server/join-server-key/
-[info   ] ConnectToServer: Trying connecting to 178.79.131.253:37796 from port 52579, retry remain: 3
-[info   ] ConnectToServer: Connected to 178.79.131.253:37796
-[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
-[info   ] STKHost: Listening has been started.
+[info   ] ConnectToServer: Registering addr 94.61.228.206:45040
+[info   ] HTTPRequest: Sending userid=284429&token=************************&server-id=288021&address=1581114574&address-ipv6=&port=45040&aes-key=****************************&aes-iv=DeSfeOeeHPokEcRh to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 46050, retry remain: 3
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 46050, retry remain: 2
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 46050, retry remain: 1
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 46050, retry remain: 0
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 10
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 9
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 8
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 7
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 6
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 5
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 4
+[info   ] ConnectToServer: Trying connecting to 5.146.220.33:2759 from port 45040, retry remain: 3
 [info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
-[info   ] ClientLobby: Server will validate this online player.
-[info   ] ClientLobby: Synchronous message of type 4
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 3
-[info   ] ClientLobby: The server accepted the connection.
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 12
+[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is dual stack network.
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
 [warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/simple_particle.vert
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/simple_particle.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/alphatest_particle.vert
@@ -149,32 +176,16 @@
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/pointlight.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/combine_diffuse_color.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/tonemap.frag
-[info   ] ClientLobby: Selection starts now
-[info   ] ClientLobby: Synchronous message of type 16
-[info   ] ClientLobby: Synchronous message of type 16
-[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 2ms
-[info   ] ClientLobby: Synchronous message of type 10
-[info   ] LobbyProtocol: Player configuration ready.
-[info   ] LobbyProtocol: Ready !
-[verbose  ] RaceManager: Nb of karts=14, ghost karts:0 ai:0 players:14
+[warn   ] KartProperties: Can't find kart type '' for kart '4-wheeled Adiumy', defaulting to 'light'.
+[verbose  ] RaceManager: Nb of karts=1, ghost karts:0 ai:0 players:1
 
-[info   ] Track: Overall scene complexity estimated at 27
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/tracks/overworld/splatting.frag
+[info   ] Track: Overall scene complexity estimated at 106
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/importance_sampling_specular.frag
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
-[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/pointlightscatter.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/gaussian6v.comp
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/gaussian6h.comp
@@ -183,568 +194,35 @@
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_text_billboard.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/passthrough.frag
 [info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] ClientLobby: Synchronous message of type 11
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] ClientLobby: Synchronous message of type 13
-[info   ] ClientLobby: Server notified that the race is finished.
-[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
-[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] ClientLobby: Synchronous message of type 15
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 4
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 12
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[info   ] ClientLobby: Selection starts now
-[info   ] ClientLobby: Synchronous message of type 16
-[info   ] ClientLobby: Synchronous message of type 16
-[info   ] ClientLobby: Synchronous message of type 16
-[info   ] ClientLobby: Synchronous message of type 10
-[info   ] LobbyProtocol: Player configuration ready.
-[info   ] LobbyProtocol: Ready !
-[verbose  ] RaceManager: Nb of karts=14, ghost karts:0 ai:0 players:14
+[verbose  ] RaceManager: Nb of karts=6, ghost karts:0 ai:5 players:1
 
-[info   ] Track: Overall scene complexity estimated at 23
-[info   ] [ItemManager]: Creating 11 random items for arena
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
-[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
-[info   ] ClientLobby: Synchronous message of type 11
+[info   ] Track: Overall scene complexity estimated at 643
 [info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
 [info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] ClientLobby: Synchronous message of type 13
-[info   ] ClientLobby: Server notified that the race is finished.
-[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
-[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] ClientLobby: Synchronous message of type 15
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 4
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 12
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[info   ] ClientLobby: Selection starts now
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[info   ] ClientLobby: Synchronous message of type 15
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 4
+[info   ] Track: Overall scene complexity estimated at 32
 [info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] ClientLobby: Synchronous message of type 8
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 15
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 4
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
-[info   ] STKHost: Listening has been stopped.
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/12888561325e1525f60b900.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/9752704285e1525f5edc9b.zip
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/'.
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_barrel_a'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/'.
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_barrel_a/'.
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_cactus_a'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_cactus_a/'.
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_concreteBarrier_a'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_concreteBarrier_a/'.
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_container_a'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_container_a/'.
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_military_vehicle_a'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_military_vehicle_a/'.
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_ssaoVan_a'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/canyon-42/library/stklib_ssaoVan_a/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/7382768215621832f5da3a.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/81112465057b4c05f48214.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/20796432465ebec34256a53.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/6251701785ebec7237f984.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/cosmic'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/cosmic/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/14343935005fdd1a89ab0a5.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/16739281265fdd1a89aad33.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/demon-ravine'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/demon-ravine/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/14167439265cfd973141252.jpg
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/20975234885fd654b17a058.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/21236357415d3c20065ff53.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/13345281345e047b0f16ba3.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/19286407105e13d27e2e812.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/frozen-drive'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/frozen-drive/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/9614599945a1dd8a688363.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/15687664755a1dd6f14754c.zip
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/green-hill_1'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/green-hill_1/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/16317514145d1996b160f51.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/18126020965ce56f57cc2ab.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/1682980894575b877f137eb.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/78608524575b8640d8605.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/lost-chasm'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/lost-chasm/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/17719838375f2aeb779c4e6.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/11189332985ea3488a42668.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/18205163055e8e16127f1b9.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/7924983775f1c94f94eaf0.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/nasty-void'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/nasty-void/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/11751786605e398f0645a4c.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/16171564795d0987b7b8e0f.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/195389175557a678d204cdf.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/890441157a678d202106.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/paradise-peaks'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/paradise-peaks/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/14795903915fd7ed5e62e53.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/6110715685f78b5f1bd689.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/14917502195ed49a5fc3882.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/10169724995ef91b263c3b2.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/11861746035d91992354626.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/11053516365d919923541a0.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/secret-garden_1'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/secret-garden_1/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/121143966256af7dfe9ee56.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/17731828605f9cf5cb89c70.png
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/21346625265e37256a6a8be.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/115118492659f60f0475930.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/5170888395d2894a70aecb.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/9817543185b5255511d099.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/13466190145b5255511cb1b.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/another-soccer-field'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/another-soccer-field/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/18521102025b83cb9a0cb83.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/3828350335b8568a49e3ba.jpg
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/8243788155f105622132eb.png
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/5544082275f105621cbb55.zip
-[info   ] [FileManager]: Creating directory(ies) '/home/wtv/.local/share/supertuxkart/addons/tracks/box'
-[info   ] FileManager: Creating directory '/home/wtv/.local/share/supertuxkart/addons/tracks/box/'.
-[warn   ] Track: NavMesh is not found for arena Circle Of Destiny, disable AI for it.
-
-[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
-[info   ] GrandPrixManager: Loading Grand Prix files from /home/wtv/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/14814799165d07ce1557c82.jpg
-[warn   ] LayoutManager: Widget '' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
-[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
-[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
-[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
-[warn   ] LayoutManager::doCalculateLayout: Alignment 'left' is unknown in widget ''
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] Broadcast: address 127.0.0.1:0 length 8 mask ff --> 127.0.0.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 24 mask ffffff --> 192.255.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 16 mask ffff --> 192.168.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 8 mask ff --> 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to 127.0.0.255:2757
-[info   ] Server Discovery: Broadcasting to 192.255.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] ServersManager: Sent broadcast message.
-[info   ] Broadcast: address 127.0.0.1:0 length 8 mask ff --> 127.0.0.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 24 mask ffffff --> 192.255.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 16 mask ffff --> 192.168.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 8 mask ff --> 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to 127.0.0.255:2757
-[info   ] Server Discovery: Broadcasting to 192.255.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] ServersManager: Sent broadcast message.
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] Broadcast: address 127.0.0.1:0 length 8 mask ff --> 127.0.0.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 24 mask ffffff --> 192.255.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 16 mask ffff --> 192.168.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 8 mask ff --> 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to 127.0.0.255:2757
-[info   ] Server Discovery: Broadcasting to 192.255.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] ServersManager: Sent broadcast message.
-[info   ] Broadcast: address 127.0.0.1:0 length 8 mask ff --> 127.0.0.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 24 mask ffffff --> 192.255.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 16 mask ffff --> 192.168.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 8 mask ff --> 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to 127.0.0.255:2757
-[info   ] Server Discovery: Broadcasting to 192.255.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] ServersManager: Sent broadcast message.
-[info   ] Broadcast: address 127.0.0.1:0 length 8 mask ff --> 127.0.0.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 24 mask ffffff --> 192.255.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 16 mask ffff --> 192.168.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 8 mask ff --> 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to 127.0.0.255:2757
-[info   ] Server Discovery: Broadcasting to 192.255.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] ServersManager: Sent broadcast message.
-[info   ] Broadcast: address 127.0.0.1:0 length 8 mask ff --> 127.0.0.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 24 mask ffffff --> 192.255.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 16 mask ffff --> 192.168.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 8 mask ff --> 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to 127.0.0.255:2757
-[info   ] Server Discovery: Broadcasting to 192.255.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] ServersManager: Sent broadcast message.
-[info   ] Broadcast: address 127.0.0.1:0 length 8 mask ff --> 127.0.0.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 24 mask ffffff --> 192.255.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 16 mask ffff --> 192.168.255.255:2757
-[info   ] Broadcast: address 192.168.1.71:0 length 8 mask ff --> 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to 127.0.0.255:2757
-[info   ] Server Discovery: Broadcasting to 192.255.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.255.255:2757
-[info   ] Server Discovery: Broadcasting to 192.168.1.255:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] Server Discovery: Broadcasting to [ff02::1]:2757
-[info   ] ServersManager: Sent broadcast message.
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] STKHost: Host initialized.
-Wed Feb 17 11:52:56 2021 [info   ] STKHost: Host initialized.
-Wed Feb 17 11:52:56 2021 [info   ] STKHost: Server port is 2759
-Wed Feb 17 11:52:56 2021 [info   ] ServerLobby: Resetting the server to its initial state.
-Wed Feb 17 11:52:56 2021 [info   ] ProtocolManager: A 11ServerLobby protocol has been started.
-Wed Feb 17 11:52:56 2021 [info   ] STKHost: Listening has been started.
-[info   ] ConnectToServer: SETUP
-[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
-[info   ] ConnectToServer: Trying connecting to [::1]:2759 from port 40417, retry remain: 3
-[info   ] ConnectToServer: Connected to [::1]:2759
-[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
-[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
-[info   ] STKHost: Listening has been started.
-Wed Feb 17 11:52:56 2021 [info   ] STKHost: [::1]:40417 has just connected. There are now 1 peers.
-Wed Feb 17 11:52:56 2021 [info   ] ServerLobby: Message of type 1 received.
-Wed Feb 17 11:52:56 2021 [info   ] ServerLobby: New player wtv with online id 284429 from [::1]:40417 with SuperTuxKart/1.2 (Linux).
-[info   ] ClientLobby: Synchronous message of type 4
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 3
-[info   ] ClientLobby: The server accepted the connection.
-[info   ] ClientLobby: Synchronous message of type 18
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 1ms
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-Wed Feb 17 11:54:16 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:16 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:16 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:16 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:23 2021 [info   ] STKHost: 192.168.1.105:53694 has just connected. There are now 2 peers.
-Wed Feb 17 11:54:23 2021 [info   ] ServerLobby: Message of type 1 received.
-Wed Feb 17 11:54:23 2021 [info   ] ServerLobby: New player ark0 with online id 286747 from 192.168.1.105:53694 with SuperTuxKart/1.2 (Windows).
-[info   ] ClientLobby: Synchronous message of type 6
-Wed Feb 17 11:54:31 2021 [info   ] STKHost: 192.168.1.105:53694 has just disconnected. There are now 1 peers.
-Wed Feb 17 11:54:31 2021 [info   ] ServerLobby: ark0 disconnected
-[info   ] ClientLobby: Synchronous message of type 8
-[info   ] ClientLobby: Synchronous message of type 6
-Wed Feb 17 11:54:31 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:31 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:31 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:31 2021 [verbose  ] STKHost: Received LAN server query
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
-Wed Feb 17 11:54:40 2021 [info   ] ProtocolManager: A 11ServerLobby protocol has been terminated.
-[info   ] STKHost: Listening has been stopped.
-Wed Feb 17 11:54:40 2021 [info   ] STKHost: Listening has been stopped.
-[info   ] STKHost: Host initialized.
-Wed Feb 17 11:54:46 2021 [info   ] STKHost: Host initialized.
-Wed Feb 17 11:54:46 2021 [info   ] STKHost: Server port is 2759
-Wed Feb 17 11:54:46 2021 [info   ] ServerLobby: Resetting the server to its initial state.
-Wed Feb 17 11:54:46 2021 [info   ] ProtocolManager: A 11ServerLobby protocol has been started.
-Wed Feb 17 11:54:46 2021 [info   ] STKHost: Listening has been started.
-[info   ] ConnectToServer: SETUP
-[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
-[info   ] ConnectToServer: Trying connecting to [::1]:2759 from port 44843, retry remain: 3
-[info   ] ConnectToServer: Connected to [::1]:2759
-[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
-[info   ] STKHost: Listening has been started.
-[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
-Wed Feb 17 11:54:46 2021 [info   ] STKHost: [::1]:44843 has just connected. There are now 1 peers.
-Wed Feb 17 11:54:46 2021 [info   ] ServerLobby: Message of type 1 received.
-Wed Feb 17 11:54:46 2021 [info   ] ServerLobby: New player wtv with online id 284429 from [::1]:44843 with SuperTuxKart/1.2 (Linux).
-[info   ] ClientLobby: Synchronous message of type 4
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] ClientLobby: Synchronous message of type 3
-[info   ] ClientLobby: The server accepted the connection.
-[info   ] ClientLobby: Synchronous message of type 18
-[info   ] ClientLobby: Synchronous message of type 6
-Wed Feb 17 11:54:51 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:51 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:51 2021 [verbose  ] STKHost: Received LAN server query
-Wed Feb 17 11:54:51 2021 [verbose  ] STKHost: Received LAN server query
-[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 1ms
-Wed Feb 17 11:54:54 2021 [info   ] STKHost: 192.168.1.105:63366 has just connected. There are now 2 peers.
-Wed Feb 17 11:54:54 2021 [info   ] ServerLobby: Message of type 1 received.
-Wed Feb 17 11:54:54 2021 [info   ] ServerLobby: New player ark0 with online id 286747 from 192.168.1.105:63366 with SuperTuxKart/1.2 (Windows).
-[info   ] ClientLobby: Synchronous message of type 6
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-Wed Feb 17 11:55:23 2021 [info   ] ServerLobby: Message of type 5 received.
-[info   ] ClientLobby: Synchronous message of type 12
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
-[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
-[info   ] ClientLobby: Selection starts now
-Wed Feb 17 11:55:25 2021 [info   ] ServerLobby: Message of type 7 received.
-Wed Feb 17 11:55:39 2021 [info   ] ServerLobby: Message of type 7 received.
-Wed Feb 17 11:55:45 2021 [info   ] ServerLobby: Message of type 16 received.
-[info   ] ClientLobby: Synchronous message of type 16
-Wed Feb 17 11:55:51 2021 [info   ] ServerLobby: Message of type 16 received.
-[info   ] ClientLobby: Synchronous message of type 16
-Wed Feb 17 11:55:51 2021 [info   ] ServerLobby: Message of type 16 received.
-[info   ] ClientLobby: Synchronous message of type 16
-Wed Feb 17 11:55:52 2021 [info   ] ServerLobby: Message of type 16 received.
-[info   ] ClientLobby: Synchronous message of type 16
-Wed Feb 17 11:55:52 2021 [info   ] ServerLobby: Message of type 16 received.
-[info   ] ClientLobby: Synchronous message of type 16
-Wed Feb 17 11:55:53 2021 [info   ] LobbyProtocol: Player configuration ready.
-Wed Feb 17 11:55:53 2021 [info   ] ServerLobbyRoom: Starting the race loading.
-Wed Feb 17 11:55:53 2021 [info   ] LobbyProtocol: Ready !
-Wed Feb 17 11:55:53 2021 [verbose  ] RaceManager: Nb of karts=7, ghost karts:0 ai:0 players:7
-
-[info   ] ClientLobby: Synchronous message of type 10
-[info   ] LobbyProtocol: Player configuration ready.
-[info   ] LobbyProtocol: Ready !
-[verbose  ] RaceManager: Nb of karts=7, ghost karts:0 ai:0 players:7
-
-[info   ] Track: Overall scene complexity estimated at 181
-[info   ] NetworkPlayerController: New network player controller.
-[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
-[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
-Wed Feb 17 11:55:54 2021 [info   ] NetworkPlayerController: New network player controller.
-Wed Feb 17 11:55:54 2021 [info   ] NetworkPlayerController: New network player controller.
-Wed Feb 17 11:55:54 2021 [info   ] NetworkPlayerController: New network player controller.
-Wed Feb 17 11:55:54 2021 [info   ] NetworkPlayerController: New network player controller.
-Wed Feb 17 11:55:54 2021 [info   ] NetworkPlayerController: New network player controller.
-Wed Feb 17 11:55:54 2021 [info   ] NetworkPlayerController: New network player controller.
-Wed Feb 17 11:55:54 2021 [info   ] NetworkPlayerController: New network player controller.
-Wed Feb 17 11:55:54 2021 [info   ] ProtocolManager: A 12GameProtocol protocol has been started.
-Wed Feb 17 11:55:54 2021 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-Wed Feb 17 11:55:57 2021 [info   ] ServerLobby: Message of type 9 received.
-Wed Feb 17 11:55:57 2021 [info   ] ServerLobby: Peer 2 has finished loading world at 2950221.353000
-Wed Feb 17 11:55:57 2021 [info   ] ServerLobby: Message of type 9 received.
-Wed Feb 17 11:55:57 2021 [info   ] ServerLobby: Peer 1 has finished loading world at 2950221.559000
-Wed Feb 17 11:55:57 2021 [info   ] ServerLobby: Max ping from peers: 10, jitter tolerance: 100
-[info   ] ClientLobby: Synchronous message of type 11
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-Wed Feb 17 11:59:54 2021 [info   ] ServerLobby: The game is considered finished.
-Wed Feb 17 11:59:54 2021 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
-Wed Feb 17 11:59:54 2021 [info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
-Wed Feb 17 11:59:54 2021 [info   ] ServerLobby: End of game message sent
-[info   ] ClientLobby: Synchronous message of type 13
-[info   ] ClientLobby: Server notified that the race is finished.
-[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
-[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
-[info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-Wed Feb 17 12:00:06 2021 [info   ] STKHost: 192.168.1.105:63366 has just disconnected. There are now 1 peers.
-Wed Feb 17 12:00:06 2021 [info   ] ServerLobby: ark0 disconnected
-[info   ] ClientLobby: Synchronous message of type 8
-[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
-Wed Feb 17 12:00:07 2021 [info   ] ProtocolManager: A 11ServerLobby protocol has been terminated.
-[info   ] STKHost: Listening has been stopped.
-Wed Feb 17 12:00:07 2021 [info   ] STKHost: Listening has been stopped.
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
-[info   ] SDLController: Xbox Gamepad (userspace driver) unplugged.
-[info   ] SDLController: Xbox Gamepad (userspace driver) #2 unplugged.
+[verbose  ] RaceManager: Nb of karts=1, ghost karts:0 ai:0 players:1
+
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/tracks/overworld/splatting.frag
+[info   ] Track: Overall scene complexity estimated at 106
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=13, challenges=26
+[info   ] SDLController: Microsoft X-Box pad v2 (US) unplugged.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
 [info   ] HTTPRequest: Sending userid=284429&token=************************ to https://online.supertuxkart.net/api/v2/user/client-quit/
-[verbose  ] Thread: Start waiting 2950477.543000
-[verbose  ] Thread: Waited 0.583000 seconds for thread to become deleteable.
-[verbose  ] Thread: Stop waiting 2950478.126000
+[verbose  ] Thread: Start waiting 750876.144000
+[verbose  ] Thread: Waited 0.479000 seconds for thread to become deleteable.
+[verbose  ] Thread: Stop waiting 750876.623000
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.

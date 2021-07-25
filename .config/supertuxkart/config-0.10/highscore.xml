@@ -79,16 +79,19 @@
              hscore-type   ="HST_STANDARD"
              number-of-laps="3"
              reverse       ="false">
+             <entry time    ="165.247"
+                    name    ="wtv"
+                    kartname="puffy"/>
              <entry time    ="165.498"
+                    name    ="wtv"
+                    kartname="puffy"/>
+             <entry time    ="167.191"
                     name    ="wtv"
                     kartname="puffy"/>
              <entry time    ="170.022"
                     name    ="wtv"
                     kartname="puffy"/>
              <entry time    ="176.774"
-                    name    ="wtv"
-                    kartname="puffy"/>
-             <entry time    ="185.555"
                     name    ="wtv"
                     kartname="puffy"/>
   </highscore>
@@ -101,6 +104,9 @@
              <entry time    ="129.095"
                     name    ="wtv"
                     kartname="puffy"/>
+             <entry time    ="132.172"
+                    name    ="wtv"
+                    kartname="puffy"/>
              <entry time    ="138.445"
                     name    ="wtv"
                     kartname="puffy"/>
@@ -108,9 +114,6 @@
                     name    ="wtv"
                     kartname="puffy"/>
              <entry time    ="141.949"
-                    name    ="wtv"
-                    kartname="puffy"/>
-             <entry time    ="143.596"
                     name    ="wtv"
                     kartname="puffy"/>
   </highscore>
@@ -153,6 +156,9 @@
                     name    ="wtv"
                     kartname="puffy"/>
              <entry time    ="197.482"
+                    name    ="wtv"
+                    kartname="puffy"/>
+             <entry time    ="200.221"
                     name    ="wtv"
                     kartname="puffy"/>
   </highscore>
@@ -276,6 +282,9 @@
              <entry time    ="216.064"
                     name    ="wtv"
                     kartname="puffy"/>
+             <entry time    ="411.399"
+                    name    ="wtv"
+                    kartname="pidgin"/>
   </highscore>
   <highscore track-name    ="addon_green-hill_1"
              number-karts  ="4"
@@ -286,6 +295,9 @@
              <entry time    ="212.03"
                     name    ="wtv"
                     kartname="puffy"/>
+             <entry time    ="218.75"
+                    name    ="wtv"
+                    kartname="pidgin"/>
   </highscore>
   <highscore track-name    ="addon_secret-garden_1"
              number-karts  ="4"
@@ -306,6 +318,9 @@
              <entry time    ="170.238"
                     name    ="wtv"
                     kartname="puffy"/>
+             <entry time    ="193.355"
+                    name    ="wtv"
+                    kartname="pidgin"/>
   </highscore>
   <highscore track-name    ="addon_frozen-drive"
              number-karts  ="4"
@@ -329,5 +344,118 @@
              <entry time    ="241.317"
                     name    ="wtv"
                     kartname="puffy"/>
+  </highscore>
+  <highscore track-name    ="candela_city"
+             number-karts  ="7"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="142.688"
+                    name    ="wtv"
+                    kartname="puffy"/>
+  </highscore>
+  <highscore track-name    ="addon_racetrack"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="200.916"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="snowtuxpeak"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="202.253"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_mod-circuit"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="5"
+             reverse       ="false">
+             <entry time    ="228.675"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_pipe-track"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="173.874"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_palm-coast"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="177.825"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_origami-animosity"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="275.248"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_foggy-mound"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="230.7"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_coyote-canyon_1"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="410.224"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_china"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="237.141"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="addon_high-in-the-sky"
+             number-karts  ="4"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="4"
+             reverse       ="false">
+             <entry time    ="223.174"
+                    name    ="wtv"
+                    kartname="pidgin"/>
+             <entry time    ="239.232"
+                    name    ="wtv"
+                    kartname="pidgin"/>
   </highscore>
 </highscores>

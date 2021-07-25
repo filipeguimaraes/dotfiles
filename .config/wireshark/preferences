@@ -1,4 +1,4 @@
-# Configuration file for Wireshark 3.4.2.
+# Configuration file for Wireshark 3.4.5.
 #
 # This file is regenerated each time preferences are saved within
 # Wireshark. Making manual changes should be safe, however.
@@ -153,7 +153,7 @@ gui.window_title: R2 FastEthernet0/1 to R5 FastEthernet0/1
 # Color style for an active selected item
 # One of: DEFAULT, FLAT, GRADIENT
 # (case-insensitive).
-#gui.active_frame.style: DEFAULT
+gui.active_frame.style: FLAT
 
 # Foreground color for an inactive selected item
 # A six-digit hexadecimal RGB color triplet (e.g. fce94f)
@@ -166,7 +166,7 @@ gui.window_title: R2 FastEthernet0/1 to R5 FastEthernet0/1
 # Color style for an inactive selected item
 # One of: DEFAULT, FLAT, GRADIENT
 # (case-insensitive).
-#gui.inactive_frame.style: DEFAULT
+gui.inactive_frame.style: FLAT
 
 # Color preferences for a marked frame
 # A six-digit hexadecimal RGB color triplet (e.g. fce94f)
@@ -288,7 +288,7 @@ gui.qt.font_name: Liberation Mono,10,-1,5,50,0,0,0,0,0
 
 # Interface link-layer header types (Ex: en0(1),en1(143),...)
 # A string
-capture.devices_linktypes: wlo1(1),any(113),lo(1),eno1(1),docker0(1),bluetooth0(201),bluetooth-monitor(254),nflog(239),nfqueue(228),dbus-system(231),dbus-session(231),ciscodump(147),dpauxmon(275),randpkt(147),sdjournal(147),sshdump(147),udpdump(252)
+capture.devices_linktypes: wlo1(1),vmnet1(1),vmnet8(1),any(113),lo(1),eno1(1),br-959a5dfed5b3(1),br-629cdd0ef1b0(1),br-7e401b1d0267(1),docker0(1),bluetooth0(201),bluetooth-monitor(254),nflog(239),nfqueue(228),dbus-system(231),dbus-session(231),ciscodump(147),dpauxmon(275),randpkt(147),sdjournal(147),sshdump(147),udpdump(252)
 
 # Interface descriptions (Ex: eth0(eth0 descr),eth1(eth1 descr),...)
 # A string
@@ -304,19 +304,19 @@ capture.devices_linktypes: wlo1(1),any(113),lo(1),eno1(1),docker0(1),bluetooth0(
 
 # Interface buffer size (Ex: en0(1),en1(143),...)
 # A string
-capture.devices_buffersize: wlo1(2),any(2),lo(2),eno1(2),docker0(2),bluetooth0(2),bluetooth-monitor(2),nflog(2),nfqueue(2),dbus-system(2),dbus-session(2),ciscodump(2),dpauxmon(2),randpkt(2),sdjournal(2),sshdump(2),udpdump(2),-(2)
+capture.devices_buffersize: wlo1(2),vmnet1(2),vmnet8(2),any(2),lo(2),eno1(2),br-959a5dfed5b3(2),br-629cdd0ef1b0(2),br-7e401b1d0267(2),docker0(2),bluetooth0(2),bluetooth-monitor(2),nflog(2),nfqueue(2),dbus-system(2),dbus-session(2),ciscodump(2),dpauxmon(2),randpkt(2),sdjournal(2),sshdump(2),udpdump(2)
 
 # Interface snap length (Ex: en0(65535),en1(1430),...)
 # A string
-capture.devices_snaplen: wlo1:0(262144),any:0(262144),lo:0(262144),eno1:0(262144),docker0:0(262144),bluetooth0:0(262144),bluetooth-monitor:0(262144),nflog:0(262144),nfqueue:0(262144),dbus-system:0(262144),dbus-session:0(262144),ciscodump:0(262144),dpauxmon:0(262144),randpkt:0(262144),sdjournal:0(262144),sshdump:0(262144),udpdump:0(262144),-:0(262144)
+capture.devices_snaplen: wlo1:0(262144),vmnet1:0(262144),vmnet8:0(262144),any:0(262144),lo:0(262144),eno1:0(262144),br-959a5dfed5b3:0(262144),br-629cdd0ef1b0:0(262144),br-7e401b1d0267:0(262144),docker0:0(262144),bluetooth0:0(262144),bluetooth-monitor:0(262144),nflog:0(262144),nfqueue:0(262144),dbus-system:0(262144),dbus-session:0(262144),ciscodump:0(262144),dpauxmon:0(262144),randpkt:0(262144),sdjournal:0(262144),sshdump:0(262144),udpdump:0(262144)
 
 # Interface promiscuous mode (Ex: en0(0),en1(1),...)
 # A string
-capture.devices_pmode: wlo1(1),any(1),lo(1),eno1(1),docker0(1),bluetooth0(1),bluetooth-monitor(1),nflog(1),nfqueue(1),dbus-system(1),dbus-session(1),ciscodump(1),dpauxmon(1),randpkt(1),sdjournal(1),sshdump(1),udpdump(1),-(1)
+capture.devices_pmode: wlo1(1),vmnet1(0),vmnet8(0),any(0),lo(0),eno1(0),br-959a5dfed5b3(0),br-629cdd0ef1b0(0),br-7e401b1d0267(0),docker0(0),bluetooth0(0),bluetooth-monitor(0),nflog(0),nfqueue(0),dbus-system(0),dbus-session(0),ciscodump(0),dpauxmon(0),randpkt(0),sdjournal(0),sshdump(0),udpdump(0)
 
 # Capture in promiscuous mode?
 # TRUE or FALSE (case-insensitive)
-#capture.prom_mode: TRUE
+capture.prom_mode: FALSE
 
 # Interface capture filter (Ex: en0(tcp),en1(udp),...)
 # A string
@@ -465,7 +465,7 @@ capture.devices_pmode: wlo1(1),any(1),lo(1),eno1(1),docker0(1),bluetooth0(1),blu
 
 # Remote capture filter
 # A string
-#extcap.ciscodump.remotefilter: deny tcp host fe80::ac22:3f19:edf5:61ff any eq 0, deny tcp any eq 0 host fe80::ac22:3f19:edf5:61ff, deny tcp host 2001:818:de2e:ed00:c86f:b2ee:4d5:1a69 any eq 0, deny tcp any eq 0 host 2001:818:de2e:ed00:c86f:b2ee:4d5:1a69, deny tcp host 172.17.0.1 any eq 0, deny tcp any eq 0 host 172.17.0.1, deny tcp host 192.168.1.71 any eq 0, deny tcp any eq 0 host 192.168.1.71, permit ip any any
+#extcap.ciscodump.remotefilter: deny tcp host fe80::250:56ff:fec0:8 any eq 0, deny tcp any eq 0 host fe80::250:56ff:fec0:8, deny tcp host fe80::250:56ff:fec0:1 any eq 0, deny tcp any eq 0 host fe80::250:56ff:fec0:1, deny tcp host fe80::7a1f:e4d3:9143:d4d9 any eq 0, deny tcp any eq 0 host fe80::7a1f:e4d3:9143:d4d9, deny tcp host 2001:818:ea8d:1500:9a2:8687:28ad:13a4 any eq 0, deny tcp any eq 0 host 2001:818:ea8d:1500:9a2:8687:28ad:13a4, deny tcp host 172.17.0.1 any eq 0, deny tcp any eq 0 host 172.17.0.1, deny tcp host 172.20.0.1 any eq 0, deny tcp any eq 0 host 172.20.0.1, deny tcp host 172.21.0.1 any eq 0, deny tcp any eq 0 host 172.21.0.1, deny tcp host 172.19.0.1 any eq 0, deny tcp any eq 0 host 172.19.0.1, deny tcp host 192.168.101.1 any eq 0, deny tcp any eq 0 host 192.168.101.1, deny tcp host 192.168.138.1 any eq 0, deny tcp any eq 0 host 192.168.138.1, deny tcp host 192.168.1.84 any eq 0, deny tcp any eq 0 host 192.168.1.84, permit ip any any
 
 # Packets to capture
 # A string
@@ -517,7 +517,7 @@ capture.devices_pmode: wlo1(1),any(1),lo(1),eno1(1),docker0(1),bluetooth0(1),blu
 
 # Remote capture filter
 # A string
-#extcap.sshdump.remotefilter: not ((host fe80::ac22:3f19:edf5:61ff or host 2001:818:de2e:ed00:c86f:b2ee:4d5:1a69 or host 172.17.0.1 or host 192.168.1.71) and port 22)
+#extcap.sshdump.remotefilter: not ((host fe80::250:56ff:fec0:8 or host fe80::250:56ff:fec0:1 or host fe80::7a1f:e4d3:9143:d4d9 or host 2001:818:ea8d:1500:9a2:8687:28ad:13a4 or host 172.17.0.1 or host 172.20.0.1 or host 172.21.0.1 or host 172.19.0.1 or host 192.168.101.1 or host 192.168.138.1 or host 192.168.1.84) and port 22)
 
 # Packets to capture
 # A string
@@ -551,11 +551,11 @@ capture.devices_pmode: wlo1(1),any(1),lo(1),eno1(1),docker0(1),bluetooth0(1),blu
 
 # Resolve TCP/UDP ports into service names
 # TRUE or FALSE (case-insensitive)
-#nameres.transport_name: FALSE
+nameres.transport_name: TRUE
 
 # Resolve IPv4, IPv6, and IPX addresses into host names. The next set of check boxes determines how name resolution should be performed. If no other options are checked name resolution is made from Wireshark's host file and capture file name resolution blocks.
 # TRUE or FALSE (case-insensitive)
-#nameres.network_name: FALSE
+nameres.network_name: TRUE
 
 # Whether address/name pairs found in captured DNS packets should be used by Wireshark for name resolution.
 # TRUE or FALSE (case-insensitive)
